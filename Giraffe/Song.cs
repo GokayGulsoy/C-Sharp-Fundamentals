@@ -25,7 +25,5 @@ namespace Giraffe
         {
             return songCount; 
         }
-
-
     }
 }

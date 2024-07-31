@@ -22,6 +22,5 @@ namespace Giraffe
         {
             Console.WriteLine("The Chef bbq ribs");
         }
-
     }
 }

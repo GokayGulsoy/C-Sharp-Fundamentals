@@ -18,8 +18,5 @@ namespace Giraffe
         {
             Console.WriteLine("The Chef makes pasta");
         }
-
-
-
     }
 }

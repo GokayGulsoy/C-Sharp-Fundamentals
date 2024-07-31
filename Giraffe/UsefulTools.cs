@@ -12,6 +12,5 @@ namespace Giraffe
         {
             Console.WriteLine("Hi " + name);
         }
-
     }
 }

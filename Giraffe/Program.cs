@@ -277,7 +277,7 @@
 
             // Creating an instance of class Book 
             Book book1 = new Book("Harry Potter", "JK Rowling", 400);
-            Book book2 = new Book("Lord of the Rings", "Tolkein",700);
+            Book book2 = new Book("Lord of the Rings", "Tolkein", 700);
 
             Console.WriteLine("Title of book1 is: " + book1.title);
             Console.WriteLine("Author of book1 is: " + book1.author);
@@ -300,7 +300,7 @@
 
             if (student1.HasHonors())
             {
-                Console.WriteLine(student1.name + " is honors student"); 
+                Console.WriteLine(student1.name + " is honors student");
             }
 
 
@@ -347,7 +347,7 @@
             return result;
         }
 
-        static int GetMax(int num1, int num2,int num3)
+        static int GetMax(int num1, int num2, int num3)
         {
             int result;
 
@@ -373,7 +373,7 @@
         {
             string dayName;
 
-            switch(dayNum)
+            switch (dayNum)
             {
                 case 0:
                     dayName = "Sunday";
@@ -404,7 +404,7 @@
             return dayName;
         }
 
-        static int GetPow(int baseNum,int powNum)
+        static int GetPow(int baseNum, int powNum)
         {
 
             int result = 1;
@@ -415,7 +415,5 @@
 
             return result;
         }
-         
-
     }
 }
