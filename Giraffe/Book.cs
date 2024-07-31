@@ -20,8 +20,5 @@ namespace Giraffe
             author = aAuthor;
             pages = aPages;
         }
-
-
-
     }
 }
